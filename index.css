@@ -49,18 +49,37 @@ body {
   margin-bottom: 5.1rem;
   margin-top: 0;
 }
-label{
+label {
   font-size: 2rem;
   line-height: 2.8rem;
 }
-
 
 .flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 3.5rem;
 }
-
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input {
+  width: 100%;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  outline: none;
+  font-size: 1.6rem;
+  border-radius: 0.6rem;
+  background-color: var(--greenBg);
+  color: #fff;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 .btn {
   color: #fff;
   background-color: var(--greenBg);
@@ -69,7 +88,7 @@ label{
   border-radius: 0.6rem;
   font-size: 1.6rem;
   line-height: 2.4rem;
-  margin-bottom: 3.5rem;
+
   cursor: pointer;
 }
 
